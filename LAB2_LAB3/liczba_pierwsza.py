@@ -13,15 +13,16 @@ if liczba >= 2:
 
             pierwsza = True
             i += 1
+    
+    if pierwsza == True:
+        wynik = 'Podana liczba jest liczba pierwsza.\n'
+        print (wynik)
 
+    else:
+        wynik = 'Podana liczba nie jest liczba pierwsza.\n'
+        print (wynik)
+       
 else:
     zle = 'Podano liczbe mniejsza od 2\n'
     print (zle)
-
-if pierwsza == True:
-    wynik = 'Podana liczba jest liczba pierwsza.\n'
-    print (wynik)
-
-else:
-    wynik = 'Podana liczba nie jest liczba pierwsza.\n'
-    print (wynik)
+       

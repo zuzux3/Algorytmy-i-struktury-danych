@@ -10,8 +10,6 @@ if a == 0:
 
 else:
     delta = b ** 2 - 4 * a * c
-
-    import math
     
     if delta == 0:
         x = -b / 2 * a
